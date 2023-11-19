@@ -71,7 +71,7 @@ catch (Exception $e) {
               <a class="nav-item nav-link active" href="criarTurma.php">Criar Turma<span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link active" href="minhasTurmas.php">Minhas Turmas<span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link active" href="./altera_dados.php">Alterar Dados<span class="sr-only">(current)</span></a> 
-              <a class="nav-item nav-link active" href="#">Perfil<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link active" href="./perfilProfessor.php">Perfil<span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link active" href="./itensCadastro.php">Buscar<span class="sr-only">(current)</span></a>
               <form class="form-inline my-2 my-lg-0 login-botao" method="GET" action="">
                 <img class="login-img" src="../img/icons/unlogged-icon.svg" alt="">
@@ -133,7 +133,7 @@ catch (Exception $e) {
                     <li class="nav-item"><a href="./criarTurma.php" class="nav-link px-2 text-body-secondary">Criar Turma</a></li>
                     <li class="nav-item"><a href="./minhasTurmas.php" class="nav-link px-2 text-body-secondary">Minhas Turmas</a></li>
                     <li class="nav-item"><a href="./altera_dados.php" class="nav-link px-2 text-body-secondary">Alterar Dados</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Perfil</a></li>
+                    <li class="nav-item"><a href="./perfilProfessor.php" class="nav-link px-2 text-body-secondary">Perfil</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sair</a></li>
                 </ul>
                 <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
