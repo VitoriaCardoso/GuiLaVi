@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     console.log("Document ready. Initializing DataTable...");
     $('#userTable').DataTable();
@@ -14,7 +13,6 @@ function abrirModalCadastro() {
 }
 
 function exibirPopupCadastro(message) {
-    // Substitua esta parte com a lógica de exibir um pop-up com a mensagem de sucesso
     alert(message);
 }
 

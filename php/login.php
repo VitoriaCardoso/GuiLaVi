@@ -15,15 +15,13 @@ if (isset($_POST["email"]) && isset($_POST["senha"])) {
 
     $sql = "SELECT senha, tipo FROM usuarios WHERE email = ?";
     $stmt = $conn->conexao->prepare($sql);
-    $stmt->bindParam(1, $email); // Substitui o valor de ? por $usuario
+    $stmt->bindParam(1, $email);
     $stmt->execute();
 
     if ($stmt->rowCount() == 1) {
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         $senhaHashBD = $row['senha'];
         $tipo = $row['tipo'];
-
-        // Verifica se a senha está correta usando password_verify
 
         if (password_verify($senha, $senhaHashBD) && $tipo === "professor") {
 

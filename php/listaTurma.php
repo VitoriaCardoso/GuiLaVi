@@ -59,7 +59,7 @@ try {
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Sistema Privado</a>
+                <a class="navbar-brand" href="sistemaPrivado.php">Sistema Privado</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -137,7 +137,6 @@ try {
                 </table>
             </div>
             <a href="#" class="btn btn-info" onclick="abrirModalCadastro()">Cadastrar</a>
-            <a href="download_excel.php" class="btn btn-success">Baixar Planilha Excel</a>
         </div>
         <div class="modal fade" id="editarModal" tabindex="-1" role="dialog" aria-labelledby="editarModalLabel"
             aria-hidden="true">

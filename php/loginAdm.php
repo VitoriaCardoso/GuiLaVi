@@ -24,7 +24,7 @@ if (isset($_POST["email"]) && isset($_POST["senha"])) {
 
     if ($stmt->rowCount() == 1) {
         $_SESSION['email'] = $email;
-        header("Location: ../php/listaUsuario.php");
+        header("Location: ../php/sistemaPrivado.php");
     } else {
         echo '<script>alert("Usuário não encontrado. Verifique seu email e senha.");</script>';
     }
