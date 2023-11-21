@@ -105,9 +105,7 @@ $conn->fecharConexao();
             <div class="tituloAdm">
                 <h2>Número de Usuários por Turmas</h2>
             </div>
-            <div id="chart_div">
-                <h2>Usuários Cadastrados</h2>
-            </div>
+            <div id="chart_div"></div>
         </div>
     </main>
     <script>
